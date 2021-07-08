@@ -1,0 +1,726 @@
+<!doctype html>
+<!--
+Website By Ignacio Prados
+http://ignacioprados.vercel.app
+-->
+
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Llanos Eco Lodge</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description" content="Portfolio de Ignacio Prados - Front-End Developer.">
+
+  <!-- Disable screen scaling-->
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@miradontsoa">
+  <meta name="twitter:creator" content="@miradontsoa">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <link  rel="icon"   href="/img/favicon.png" type="image/png" />
+
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/bebas/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/ionicons.min.css">
+  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+
+  <!-- Vendor CSS style -->
+  <link rel="stylesheet" href="./css/pageloader.css">
+
+  <!-- Uncomment below to load individualy vendor CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./js/vendor/swiper.min.css">
+  <link rel="stylesheet" href="./js/vendor/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="./js/vegas/vegas.min.css">
+
+  <!-- Main CSS files -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- add alt layout here -->
+  <link rel="stylesheet" href="./css/style-default.css">
+
+  <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
+</head>
+
+<body id="menu" class="body-page">
+  <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <!-- Page Loader : just comment these lines to remove it -->
+  <div class="page-loader" id="page-loader">
+    <div>
+      <div class="icon ion-spin"></div>
+      <p>cargando</p>
+    </div>
+  </div>
+
+  <!-- BEGIN OF site header Menu -->
+  <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
+
+    <!-- Begin of menu icon toggler -->
+    <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
+      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
+      <span class="menu-icon menu-icon-normal">
+        <span class="bars">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </span>
+      </span>
+    </button>
+    <!-- End of menu icon toggler -->
+
+    <!-- Begin of logo/brand -->
+    <a class="navbar-brand" href="">
+      <span class="logo">
+        <img class="light-logo" src="img/logo.png" alt="Logo">
+      </span>
+      <span class="text">
+        <span class="line"></span>
+        <span class="line sub"></span>
+      </span>
+    </a>
+    <!-- End of logo/brand -->
+
+    <!-- begin of menu wrapper -->
+    <div class="all-menu-wrapper" id="navbarMenu">
+      <!-- Begin of top menu -->
+      <nav class="navbar-topmenu">
+        <!-- Begin of CTA Actions, & Icons menu -->
+        <!-- <ul class="navbar-nav navbar-nav-actions">
+				<li class="nav-item">
+					<a class="btn btn-outline-white btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
+						Buy Now
+					</a>
+				</li>
+			</ul> -->
+        <!-- End of CTA & Icons menu -->
+      </nav>
+      <!-- End of top menu -->
+
+      <!-- Begin of hamburger mainmenu menu -->
+      <nav class="navbar-mainmenu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html#home">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clientes">Clientes y Reseñas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">FAQ y Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of hamburger mainmenu menu -->
+
+    </div>
+    <!-- end of menu wrapper -->
+
+  </header>
+  <!-- END OF site header Menu-->
+
+  <!-- BEGIN OF page cover -->
+  <div class="page-cover" id="parallax-cover">
+    <!-- Cover Background -->
+    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default.jpg"></div>
+
+    <!-- Transluscent mask as filter -->
+    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
+
+
+  </div>
+  <!--END OF page cover -->
+
+  <!-- BEGIN OF page main content -->
+  <main class="page-main page-fullpage main-anim" id="mainpage">
+
+    <!-- Begin of home section -->
+    <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
+    data-section="home">
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth with-margin v-center">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <h1 class="display-4 display-title home-title decor anim-1">Llanos EcoLodge</h1>
+                <h4 class="anim-2 ubi">Alojamiento | Ushuaia, Tierra del Fuego.</h4>
+                <p class="anim-2">Todas las comodidades de un hotel, combinadas con los aspectos 
+                    más divertidos y prácticos de un camping by <a class="link" href="https://www.instagram.com/llanosdelcastorushuaia/" target="_blank">@llanosdelcastorushuaia</a>.</p>
+              </div>
+
+              <!-- Action button -->
+              <div class="btns-action anim-3">
+                <a class="btn btn-circicon btn-primary" href="#info">
+                  <span class="icon">
+                    <i class="ion ion-chevron-down"></i>
+                  </span>
+                  <span class="text">+ Información</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="section-aside aside-bottom">
+          <div class="text-right">
+
+          </div>
+          <!-- Action button -->
+          <div class="btns-action anim-3 text-right">
+            <a class="btn btn-outline-white btn-round" href="#contact">
+              Contact
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="down">
+            <span class="icon"></span>
+            <span class="txt">Scroll Down</span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of home section -->
+
+    <!-- Begin of slider section -->
+    <div class="section section-twoside project-slider fp-auto-height-responsive " data-section="info">
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
+            </div>
+            <div class="legend">
+                <h3>Libertad</h3>
+                <h4 class="numberslide">01</h4>
+                <p>El Lugar ideal para pasar tus próximas vacaciones y sentirte parte de la naturaleza!</p>
+              <a class="btn btn-transp-arrow btn-primary" href="#info/1">
+                <span class="text">Siguiente</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample2.jpg" alt="Image">
+            </div>
+            <div class="legend">
+                <h3>Comodidad</h3>
+                <h4 class="numberslide">02</h4>
+                <p>Nuestras habitaciones cuentan con capacidad hasta 3 personas, baño privado, y todas las comodidades.</p>
+              <a class="btn btn-transp-arrow btn-primary" href="#info/2">
+                <span class="text">Siguiente</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample4.jpg" alt="Image">
+            </div>
+            <div class="legend">
+                <h3>Tranquilidad</h3>
+                <h4 class="numberslide">03</h4>
+                <p>Una estadía para relajarte y desconectarte de todo!</p>
+              <a class="btn btn-transp-arrow btn-primary" href="#info/3">
+                <span class="text">Siguiente</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample0.jpg" alt="Image">
+            </div>
+            <div class="legend">
+                <h3>Aventura</h3>
+                <h4 class="numberslide">04</h4>
+                <p><a class="link" href="https://www.instagram.com/llanosdelcastorushuaia/" target="_blank">@llanosdelcastorushuaia</a> nos brinda diferentes actividades para vivir experiencias únicas en contacto con la naturaleza!</p>
+              <a class="btn btn-transp-arrow btn-primary" href="#info/">
+                <span class="text">Inicio</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Arrows scroll down/up -->
+      <footer class="section-footer scrolldown">
+        <a class="down">
+          <span class="icon"></span>
+          <span class="txt">All Works</span>
+        </a>
+      </footer>
+
+    </div>
+    <!-- End of slider section -->
+
+    <!-- Begin of description section -->
+    <div class="section section-description fp-auto-height-responsive " data-section="clientes">
+        <!-- Begin of section wrapper -->
+        <div class="section-wrapper fullwidth with-margin">
+  
+          <!-- content -->
+          <div class="section-content anim">
+            <div class="row">
+              <div class="col-12 col-md-6 text-left">
+                <!-- title and description -->
+                <div class="title-desc">
+                  <h1 class="display-4 display-title anim-1">About</h1>
+                  <h4 class="anim-2">We build things</h4>
+                  <p class="anim-2">This describes what we do and what is our mission. At right you can
+                    see the awesome people behind. Lorem ipsum magicum dolor sit amet,
+                    consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula
+                    fermentum a sit amet nulla.
+                  </p>
+                </div>
+  
+                <!-- Action button -->
+                <div class="btns-action anim-3">
+                  <a class="btn btn-circicon btn-primary" href="#projects-featured">
+                    <span class="icon">
+                      <i class="ion ion-chevron-down"></i>
+                    </span>
+                    <span class="text">Selected Works</span>
+                  </a>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+  
+          <!-- aside -->
+          <div class="section-aside aside-bottom anim small-relative">
+            <div class="a-wrapper anim-4">
+              <!-- begin of slider carousel-swiper-alpha -->
+              <div class="slider-wrapper carousel-swiper-alpha carousel-swiper-alpha-demo">
+                <!-- slider -->
+                <div class="slider-container swiper-container">
+                  <ul class="item-list swiper-wrapper">
+                    <!-- item -->
+                    <li class="slide-item swiper-slide">
+                      <div class="item-wrapper">
+                        <div class="illustr">
+                          <img src="img/items/img-people1.jpg" alt="Image" class="img">
+                        </div>
+                        <div class="legend">
+                          <h3 class="title">Geraldine Cyclone</h3>
+                          <h4>Senior Designer</h4>
+                          <div class="icons">
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-instagram"></i>
+                            </a>
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- item -->
+                    <li class="slide-item swiper-slide">
+                      <div class="item-wrapper">
+                        <div class="illustr">
+                          <img src="img/items/img-people2.jpg" alt="Image" class="img">
+                        </div>
+                        <div class="legend">
+                          <h3 class="title">Jerome Levier</h3>
+                          <h4>Developer</h4>
+                          <div class="icons">
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-instagram"></i>
+                            </a>
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- item -->
+                    <li class="slide-item swiper-slide">
+                      <div class="item-wrapper">
+                        <div class="illustr">
+                          <img src="img/items/img-people3.jpg" alt="Image" class="img">
+                        </div>
+                        <div class="legend">
+                          <h3 class="title">Nicole Florence</h3>
+                          <h4>Architect</h4>
+                          <div class="icons">
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-instagram"></i>
+                            </a>
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- item -->
+                    <li class="slide-item swiper-slide">
+                      <div class="item-wrapper">
+                        <div class="illustr">
+                          <img src="img/items/img-people4.jpg" alt="Image" class="img">
+                        </div>
+                        <div class="legend">
+                          <h3 class="title">Tintin Dupon</h3>
+                          <h4>Photograph</h4>
+                          <div class="icons">
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-instagram"></i>
+                            </a>
+                            <a class="icon-btn" href="#">
+                              <i class="icon fa fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- pagination -->
+                <div class="items-pagination bar"></div>
+  
+              </div>
+              <!-- end of slider carousel-swiper-alpha -->
+  
+            </div>
+          </div>
+  
+  
+          <!-- Arrows scroll down/up -->
+          <footer class="section-footer scrolldown">
+            <a class="down">
+              <span class="icon"></span>
+              <span class="txt">Works</span>
+            </a>
+          </footer>
+        </div>
+        <!-- End of section wrapper -->
+      </div>
+      <!-- End of description section -->
+
+
+
+
+    <!-- Begin of register/login/signin section -->
+    <div class="section section-register fp-auto-height-responsive " data-section="register">
+      <!-- section cover -->
+      <div class="section-cover-full bg-img" data-image-src="./img/sections/register.png">
+      </div>
+
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth with-margin">
+
+        <!-- content -->
+        <div class="section-content anim">
+
+          <div class="row">
+
+            <div class="col-12 col-md-12 col-lg-5">
+              <!-- Registration form container-->
+              <form class="send_email_form form-container form-container-transparent form-container-white"
+              method="post" action="ajaxserver/serverfile.php">
+                <div class="form-desc">
+                  <h2 class="display-4 display-title  anim-2">Subscribe</h2>
+                  <p class="invite  anim-3">Don't miss any new opportunity, Hurry up! register now :</p>
+                </div>
+                <div class="form-input  anim-4">
+                  <div class="form-group form-success-gone">
+                    <label for="reg-email">Email</label>
+                    <input id="reg-email" name="email" class="form-control-line form-control-white" type="email"
+                    required placeholder="your@email.address" data-validation-type="email"
+                    />
+                  </div>
+                  <div class="form-group mb-0">
+                    <div>
+                      <p class="email-ok invisible form-text-feedback form-success-visible">Your email has been registred, thank you.</p>
+                    </div>
+
+                    <div class="btns-action anim-3">
+                      <button id="submit-email" name="submit_email" class="btn btn-circicon btn-primary form-success-gone">
+                        <span class="icon">
+                          <i class="ion ion-checkmark"></i>
+                        </span>
+                        <span class="text">Subscribe</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- end of content -->
+
+        <!-- aside footer -->
+        <div class="section-aside aside-bottom small-relative">
+          <div class="text-left text-md-right">
+            <p>Stay updated. Follow us on social media</p>
+          </div>
+          <div class="icons icons-margin">
+            <a class="icon-btn" href="#">
+              <i class="icon fa fa-instagram"></i>
+            </a>
+            <a class="icon-btn" href="#">
+              <i class="icon fa fa-youtube"></i>
+            </a>
+            <a class="icon-btn" href="#">
+              <i class="icon fa fa-facebook"></i>
+            </a>
+            <a class="icon-btn" href="#">
+              <i class="icon fa fa-pinterest"></i>
+            </a>
+            <a class="icon-btn" href="#">
+              <i class="icon fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <!-- End of section wrapper -->
+
+      <!-- Arrows scroll down/up -->
+      <footer class="section-footer scrolldown">
+        <a class="down">
+          <span class="icon"></span>
+          <span class="txt">Contact</span>
+        </a>
+      </footer>
+    </div>
+    <!-- End of register/login/signin section -->
+
+    <!-- Begin of contact section -->
+    <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
+      <!-- section cover -->
+      <div class="section-cover-full bg-img" data-image-src="./img/sections/contact.png">
+      </div>
+
+      <!-- Begin of slide section wrapper -->
+      <div class="section-wrapper fullwidth  with-margin">
+        <!-- main content -->
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6">
+            <!-- content -->
+            <div class="section-content anim text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <div class="anim-2">
+                  <h2 class="display-4 display-title">Contact</h2>
+                  <p>For questions about our company and products found on our stores.
+                    Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.
+                    Fusce in urna sem.</p>
+                </div>
+                <div class="address-container anim-3">
+
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                      <h4>Contact</h4>
+                      <p>Call: 01 234 567 89</p>
+                      <p>Email: ouremail@domain.com</p>
+
+                      <div class="icons icons-margin">
+                        <a class="icon-btn" href="#">
+                          <i class="icon fa fa-instagram"></i>
+                        </a>
+                        <a class="icon-btn" href="#">
+                          <i class="icon fa fa-twitter"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                      <h4>Address</h4>
+                      <p>
+                        Company address
+                        <br>12 Street Turning Place
+                        <br>South Est, Antartica
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+
+          </div>
+        </div>
+
+
+        <!-- aside content -->
+        <div class="section-aside aside-bottom anim small-relative">
+          <div class="message-form">
+            <h4>Write message</h4>
+            <div class="form-container form-container-card">
+              <!-- Message form container -->
+              <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
+              id="message_form">
+                <div class="form-group name">
+                  <input id="mes-name" name="name" type="text" placeholder="Name" class="form-control form-control-outline thick form-success-clean"
+                  required>
+                </div>
+                <div class="form-group email">
+                  <input id="mes-email" type="email" placeholder="Email" name="email" class="form-control form-control-outline thick form-success-clean"
+                  required>
+                </div>
+                <div class="form-group no-border">
+                  <textarea id="mes-text" placeholder="Message ..." name="message" class="form-control form-control-outline thick form-success-clean"
+                  required></textarea>
+
+                  <div>
+                    <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
+                  </div>
+                </div>
+
+                <div class="btns text-right">
+                  <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
+                  name="submit_message">
+                    <span class="txt">Send Now</span>
+                    <span class="arrow-icon"></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of slide section wrapper -->
+
+    </div>
+    <!-- End of contact section -->
+  </main>
+  <!-- END OF page main content -->
+
+  <!-- BEGIN OF page footer -->
+  <footer id="site-footer" class="page-footer">
+
+    <!-- Right content -->
+    <div class="footer-right">
+      <p class="note"> &#169 2021 Made by
+        <a href="https://ignacioprados.vercel.app/" target="_blank">
+          <span class="marked">IgnacioPrados</span>
+        </a>
+      </p>
+      <ul class="social">
+        <li>
+          <a href="mailto:llanosecolodge@gmail.com">
+            <i class="icon fa fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=+542901404668" target="_blank">
+            <i class="icon fa fa-whatsapp"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/llanosecolodge/" target="_blank">
+            <i class="icon fa fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- END OF site footer -->
+
+  <!-- scripts -->
+  <!-- All Javascript plugins goes here -->
+  <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="./js/slick/slick.min.js"></script>
+
+  <!-- All vendor scripts -->
+  <script src="./js/vendor/parallax.min.js"></script>
+  <script src="./js/vendor/scrolloverflow.min.js"></script>
+  <script src="./js/vendor/all.js"></script>
+  <script src="./js/particlejs/particles.min.js"></script>
+
+  <!-- Countdown script -->
+  <script src="./js/jquery.downCount.js"></script>
+
+  <!-- Form script -->
+  <script src="./js/form_script.js"></script>
+
+  <!-- Javascript main files -->
+  <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
