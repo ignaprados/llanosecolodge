@@ -105,7 +105,17 @@ ul, li {
 
 a {
   color: var(--white-color);
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: 0.2s; }
+
+.anim-2 a:hover{
+  color: var(--first-color);
+}
+
+.mail a:hover{
+  color: var(--first-color);
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif; }
@@ -293,9 +303,9 @@ p {
     border-color: white;
     background-color: transparent; }
   .btn-outline-white:hover, .btn-outline-white:focus {
-    color: var(--white-color);
-    border-color: transparent;
-    background-color: var(--second-color); }
+    color: var(--second-color);
+    border-color: var(--second-color);
+    background-color: transparent; }
   .btn-outline-white.disabled, .btn-outline-white:disabled {
     color: var(--white-color);
     opacity: 0.7;
@@ -695,12 +705,12 @@ p {
   padding-left: 8px;
   padding-right: 8px;
   display: inline-block;
-  transition: 0.3s;
+  transition: 0.2s;
   color: var(--white-color); }
   .icon-btn .icon {
     font-size: 32px; }
   .icon-btn:hover {
-    color: var(--third-color); }
+    color: var(--first-color) !important; }
 
 .icons-margin {
   margin-left: -8px;
@@ -3123,10 +3133,14 @@ textarea {
   .page-footer .footer-right p {
     margin-bottom: 0;
     font-size: 0.75rem;
-    color: var(--third-color); }
+    color: var(--white-color); }
     .page-footer .footer-right p .marked {
       font-weight: bold;
-      color: var(--white-color); }
+      color: var(--first-color);
+    transition: 0.2s; }
+      .page-footer .footer-right p .marked:hover{
+        color: var(--first-color);
+      }
   .page-footer .footer-right .social {
     display: inline-flex;
     flex-direction: row;
@@ -3136,9 +3150,9 @@ textarea {
       padding-left: 8px;
       padding-right: 8px;
       display: inline-block;
-      color: var(--third-color); }
+      color: var(--white-color); }
       .page-footer .footer-right .social a:hover {
-        color: var(--white-color); }
+        color: var(--first-color); }
     .page-footer .footer-right .social .icon {
       font-size: 24px; }
 
@@ -5264,20 +5278,29 @@ p {
   border: 0;
   background: transparent;
   padding: 0;
+  margin-bottom: 0px !important;
 }
 .accordion-section .panel-default .panel-title a {
   display: block;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.accordion-section .panel-default .panel-title a:hover{
+  color: var(--first-color);
 }
 .accordion-section .panel-default .panel-title a:after {
   font-family: 'FontAwesome';
   font-style: normal;
   font-size: 3rem;
   content: "\f106";
-  color: var(--white-color);
   float: right;
   margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a:after:hover{
+color: var(--first-color);
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
   content: "\f107";
