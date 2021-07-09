@@ -27,7 +27,7 @@ html file
     height: 100%;
     top:0;
     left:0;
-    background: var(--white-color);
+    background: black;
     display: block;  
     
 }
@@ -52,7 +52,7 @@ html file
         top:50%;
         width: 100%;
         text-align: center;
-        color: #1d1d1d;
+        color: #d4bdab;
         margin-top: -50px;
     	display: block; 
     }
@@ -63,16 +63,16 @@ html file
 			width: 40px;
 			height: 40px;
 			content: "";
-			background: var(--black-color);
+			background: rgb(0, 0, 0);
 			border-radius: 100px;
-			border: 8px solid var(--white-color);
-			border-top-color: #4d4d4d;
-			border-bottom-color: #4d4d4d;
+			border: 8px solid #525252;
+			border-top-color: rgb(32, 32, 32);
+			border-bottom-color: rgb(32, 32, 32);
 		}
         .page-loader div p{
             margin-top: 100px;
             font-size: 14px;
-            color: var(--black-color);
+            color: #d4bdab;
             letter-spacing: 1em;
             padding-left: 1em;
             text-transform: uppercase;
