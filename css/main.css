@@ -5297,6 +5297,7 @@ p {
 .accordion-section .panel-default .panel-title a {
   display: block;
   font-style: italic;
+  font-weight: normal;
   font-size: 1.4rem;
   color: var(--white-color);
   cursor: pointer;
@@ -5520,13 +5521,13 @@ color: var(--first-color);
 
 @-webkit-keyframes testim-scale {
   0% {
-      -webkit-box-shadow: 0px 0px 0px 0px #eee;
-      box-shadow: 0px 0px 0px 0px #eee;
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
+      box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
   }
 
   35% {
-      -webkit-box-shadow: 0px 0px 10px 5px #eee;        
-      box-shadow: 0px 0px 10px 5px #eee;        
+      -webkit-box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
+      box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
   }
 
   70% {
@@ -5542,13 +5543,13 @@ color: var(--first-color);
 
 @-moz-keyframes testim-scale {
   0% {
-      -moz-box-shadow: 0px 0px 0px 0px #eee;
-      box-shadow: 0px 0px 0px 0px #eee;
+      -moz-box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
+      box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
   }
 
   35% {
-      -moz-box-shadow: 0px 0px 10px 5px #eee;        
-      box-shadow: 0px 0px 10px 5px #eee;        
+      -moz-box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
+      box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
   }
 
   70% {
@@ -5564,13 +5565,13 @@ color: var(--first-color);
 
 @-ms-keyframes testim-scale {
   0% {
-      -ms-box-shadow: 0px 0px 0px 0px #eee;
-      box-shadow: 0px 0px 0px 0px #eee;
+      -ms-box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486)e;
+      box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
   }
 
   35% {
-      -ms-box-shadow: 0px 0px 10px 5px #eee;        
-      box-shadow: 0px 0px 10px 5px #eee;        
+      -ms-box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
+      box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
   }
 
   70% {
@@ -5586,13 +5587,13 @@ color: var(--first-color);
 
 @-o-keyframes testim-scale {
   0% {
-      -o-box-shadow: 0px 0px 0px 0px #eee;
-      box-shadow: 0px 0px 0px 0px #eee;
+      -o-box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
+      box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
   }
 
   35% {
-      -o-box-shadow: 0px 0px 10px 5px #eee;        
-      box-shadow: 0px 0px 10px 5px #eee;        
+      -o-box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
+      box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
   }
 
   70% {
@@ -5608,11 +5609,11 @@ color: var(--first-color);
 
 @keyframes testim-scale {
   0% {
-      box-shadow: 0px 0px 0px 0px #eee;
+      box-shadow: 0px 0px 0px 0px rgba(238, 238, 238, 0.486);
   }
 
   35% {
-      box-shadow: 0px 0px 10px 5px #eee;        
+      box-shadow: 0px 0px 10px 5px rgba(238, 238, 238, 0.486);        
   }
 
   70% {
