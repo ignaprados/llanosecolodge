@@ -575,6 +575,12 @@ p {
   display: inline-flex;
   justify-content: center;
   align-items: center; }
+  .fotos{
+    color: var(--white-color) ;
+  }
+  .fotos:hover{
+    color: var(--first-color) !important;
+  }
   .btn-transp-arrow:focus {
     box-shadow: none; }
   .btn-transp-arrow > .icon {
