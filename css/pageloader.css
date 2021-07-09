@@ -27,7 +27,7 @@ html file
     height: 100%;
     top:0;
     left:0;
-    background: var(--black-color);
+    background: var(--white-color);
     display: block;  
     
 }
@@ -63,16 +63,16 @@ html file
 			width: 40px;
 			height: 40px;
 			content: "";
-			background: #ada49d;
+			background: var(--black-color);
 			border-radius: 100px;
-			border: 8px solid #aa927f;
-			border-top-color: #7a604b;
-			border-bottom-color: #7a604b;
+			border: 8px solid var(--white-color);
+			border-top-color: #4d4d4d;
+			border-bottom-color: #4d4d4d;
 		}
         .page-loader div p{
             margin-top: 100px;
             font-size: 14px;
-            color: var(--first-color);
+            color: var(--black-color);
             letter-spacing: 1em;
             padding-left: 1em;
             text-transform: uppercase;
