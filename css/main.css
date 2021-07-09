@@ -5364,6 +5364,7 @@ color: var(--first-color);
 
 #testim-dots{
   padding: 0px;
+  padding-top: 10px;
 }
 
 .testim .arrow:before {

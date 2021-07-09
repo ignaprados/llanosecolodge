@@ -1,758 +1,670 @@
 <!doctype html>
 <!--
-Website By Ignacio Prados
-http://ignacioprados.vercel.app
--->
-
+   Website By Ignacio Prados
+   http://ignacioprados.vercel.app
+   -->
 <html class="no-js" lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-  <!-- Page Title Here -->
-  <title>Llanos Eco Lodge</title>
-
-  <!-- Meta -->
-  <!-- Page Description Here -->
-  <meta name="description" content="Portfolio de Ignacio Prados - Front-End Developer.">
-
-  <!-- Disable screen scaling-->
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
-
-  <!-- Twitter Meta -->
-  <meta name="twitter:site" content="@miradontsoa">
-  <meta name="twitter:creator" content="@miradontsoa">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Page Title">
-  <meta name="twitter:description" content="Description of the page">
-  <meta name="twitter:image" content="/img/bg-default.jpg">
-
-  <!-- Facebook Meta -->
-  <meta property="og:url" content="your website url here">
-  <meta property="og:title" content="Page Title">
-  <meta property="og:description" content="Description of the page">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/img/bg-default.jpg">
-  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
-  <meta property="og:image:type" content="image/jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-
-  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-  <link  rel="icon"   href="/img/favicon.png" type="image/png" />
-
-  <!-- Web fonts and Web Icons -->
-  <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/bebas/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/ionicons.min.css">
-  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
-
-  <!-- Vendor CSS style -->
-  <link rel="stylesheet" href="./css/pageloader.css">
-
-  <!-- Uncomment below to load individualy vendor CSS -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./js/vendor/swiper.min.css">
-  <link rel="stylesheet" href="./js/vendor/jquery.fullpage.min.css">
-  <link rel="stylesheet" href="./js/vegas/vegas.min.css">
-
-  <!-- Main CSS files -->
-  <link rel="stylesheet" href="./css/main.css">
-
-  <!-- add alt layout here -->
-  <link rel="stylesheet" href="./css/style-default.css">
-
-  <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
-</head>
-
-<body id="menu" class="body-page">
-  <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-  <!-- Page Loader : just comment these lines to remove it -->
-  <div class="page-loader" id="page-loader">
-    <div>
-      <div class="icon ion-spin"></div>
-      <p>cargando</p>
-    </div>
-  </div>
-
-  <!-- BEGIN OF site header Menu -->
-  <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
-
-    <!-- Begin of menu icon toggler -->
-    <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
-      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
-      <span class="menu-icon menu-icon-normal">
-        <span class="bars">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
-        </span>
-      </span>
-    </button>
-    <!-- End of menu icon toggler -->
-
-    <!-- Begin of logo/brand -->
-    <a class="navbar-brand" href="https://www.instagram.com/llanosecolodge/" target="_blank">
-      <span class="logo">
-        <img class="light-logo" src="img/logo.png" alt="Logo">
-      </span>
-      <span class="text">
-        <span class="line"></span>
-        <span class="line sub"></span>
-      </span>
-    </a>
-    <!-- End of logo/brand -->
-
-    <!-- begin of menu wrapper -->
-    <div class="all-menu-wrapper" id="navbarMenu">
-      <!-- Begin of top menu -->
-      <nav class="navbar-topmenu">
-        <!-- Begin of CTA Actions, & Icons menu -->
-        <!-- <ul class="navbar-nav navbar-nav-actions">
-				<li class="nav-item">
-					<a class="btn btn-outline-white btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
-						Buy Now
-					</a>
-				</li>
-			</ul> -->
-        <!-- End of CTA & Icons menu -->
-      </nav>
-      <!-- End of top menu -->
-
-      <!-- Begin of hamburger mainmenu menu -->
-      <nav class="navbar-mainmenu">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html#home">Inicio
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#info">Principal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#clientes">Clientes </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#galeria">Galería</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- End of hamburger mainmenu menu -->
-
-    </div>
-    <!-- end of menu wrapper -->
-
-  </header>
-  <!-- END OF site header Menu-->
-
-  <!-- BEGIN OF page cover -->
-  <div class="page-cover" id="parallax-cover">
-    <!-- Cover Background -->
-    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default.jpg"></div>
-
-    <!-- Transluscent mask as filter -->
-    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
-
-
-  </div>
-  <!--END OF page cover -->
-
-  <!-- BEGIN OF page main content -->
-  <main class="page-main page-fullpage main-anim" id="mainpage">
-
-    <!-- Begin of home section -->
-    <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
-    data-section="home">
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin v-center">
-        <!-- content -->
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h1 class="display-4 display-title home-title decor anim-1">Llanos EcoLodge</h1>
-                <h4 class="anim-2 ubi">Alojamiento | Ushuaia, Tierra del Fuego.</h4>
-                <p class="anim-2">Todas las comodidades de un hotel, combinadas con los aspectos 
-                    más divertidos y prácticos de un camping by <a class="link" href="https://www.instagram.com/llanosdelcastorushuaia/" target="_blank">@llanosdelcastorushuaia</a>.</p>
-              </div>
-
-              <!-- Action button -->
-              <div class="btns-action anim-3">
-                <a class="btn btn-circicon btn-primary" href="#info">
-                  <span class="icon">
-                    <i class="ion ion-chevron-down"></i>
-                  </span>
-                  <span class="text">+ Información</span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="section-aside aside-bottom">
-          <div class="text-right">
-
-          </div>
-          <!-- Action button -->
-          <div class="btns-action anim-3 text-right">
-            <a class="btn btn-outline-white btn-round" href="#contact">
-              Contacto
-            </a>
-          </div>
-        </div>
-
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Scroll Down</span>
-          </a>
-        </footer>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <!-- Page Title Here -->
+      <title>Llanos Eco Lodge</title>
+      <!-- Meta -->
+      <!-- Page Description Here -->
+      <meta name="description" content="Portfolio de Ignacio Prados - Front-End Developer.">
+      <!-- Disable screen scaling-->
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+      <!-- Twitter Meta -->
+      <meta name="twitter:site" content="@miradontsoa">
+      <meta name="twitter:creator" content="@miradontsoa">
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="Page Title">
+      <meta name="twitter:description" content="Description of the page">
+      <meta name="twitter:image" content="/img/bg-default.jpg">
+      <!-- Facebook Meta -->
+      <meta property="og:url" content="your website url here">
+      <meta property="og:title" content="Page Title">
+      <meta property="og:description" content="Description of the page">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="/img/bg-default.jpg">
+      <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+      <meta property="og:image:type" content="image/jpg">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="630">
+      <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+      <link  rel="icon"   href="/img/favicon.png" type="image/png" />
+      <!-- Web fonts and Web Icons -->
+      <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
+      <link rel="stylesheet" href="./fonts/bebas/stylesheet.css">
+      <link rel="stylesheet" href="./fonts/ionicons.min.css">
+      <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+      <!-- Vendor CSS style -->
+      <link rel="stylesheet" href="./css/pageloader.css">
+      <!-- Uncomment below to load individualy vendor CSS -->
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <link rel="stylesheet" href="./js/vendor/swiper.min.css">
+      <link rel="stylesheet" href="./js/vendor/jquery.fullpage.min.css">
+      <link rel="stylesheet" href="./js/vegas/vegas.min.css">
+      <!-- Main CSS files -->
+      <link rel="stylesheet" href="./css/main.css">
+      <!-- add alt layout here -->
+      <link rel="stylesheet" href="./css/style-default.css">
+      <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
+   </head>
+   <body id="menu" class="body-page">
+      <!--[if lt IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <!-- Page Loader : just comment these lines to remove it -->
+      <div class="page-loader" id="page-loader">
+         <div>
+            <div class="icon ion-spin"></div>
+            <p>cargando</p>
+         </div>
       </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of home section -->
-
-    <!-- Begin of slider section -->
-    <div class="section section-twoside project-slider fp-auto-height-responsive " data-section="info">
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr ">
-              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
-            </div>
-            <div class="legend">
-                <h3>Libertad</h3>
-                <h4 class="numberslide">01</h4>
-                <p>El Lugar ideal para pasar tus próximas vacaciones y sentirte parte de la naturaleza!</p>
-              <a class="btn btn-transp-arrow btn-primary" href="#info/1">
-                <span class="text">Siguiente</span>
-                <span class="icon arrow-right"></span>
-              </a>
-            </div>
-          </div>
-        </div>
+      <!-- BEGIN OF site header Menu -->
+      <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
+         <!-- Begin of menu icon toggler -->
+         <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
+            <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
+            <span class="menu-icon menu-icon-normal">
+            <span class="bars">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+            </span>
+            </span>
+         </button>
+         <!-- End of menu icon toggler -->
+         <!-- Begin of logo/brand -->
+         <a class="navbar-brand" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+         <span class="logo">
+         <img class="light-logo" src="img/logo.png" alt="Logo">
+         </span>
+         <span class="text">
+         <span class="line"></span>
+         <span class="line sub"></span>
+         </span>
+         </a>
+         <!-- End of logo/brand -->
+         <!-- begin of menu wrapper -->
+         <div class="all-menu-wrapper" id="navbarMenu">
+            <!-- Begin of top menu -->
+            <nav class="navbar-topmenu">
+               <!-- Begin of CTA Actions, & Icons menu -->
+               <!-- <ul class="navbar-nav navbar-nav-actions">
+                  <li class="nav-item">
+                  	<a class="btn btn-outline-white btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
+                  		Buy Now
+                  	</a>
+                  </li>
+                  </ul> -->
+               <!-- End of CTA & Icons menu -->
+            </nav>
+            <!-- End of top menu -->
+            <!-- Begin of hamburger mainmenu menu -->
+            <nav class="navbar-mainmenu">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="./index.html#home">Inicio
+                     <span class="sr-only">(current)</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#info">Principal</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#clientes">Clientes </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#galeria">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contacto</a>
+                  </li>
+               </ul>
+            </nav>
+            <!-- End of hamburger mainmenu menu -->
+         </div>
+         <!-- end of menu wrapper -->
+      </header>
+      <!-- END OF site header Menu-->
+      <!-- BEGIN OF page cover -->
+      <div class="page-cover" id="parallax-cover">
+         <!-- Cover Background -->
+         <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default.jpg"></div>
+         <!-- Transluscent mask as filter -->
+         <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
       </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/img-sample2.jpg" alt="Image">
-            </div>
-            <div class="legend">
-                <h3>Comodidad</h3>
-                <h4 class="numberslide">02</h4>
-                <p>Nuestras habitaciones cuentan con capacidad hasta 3 personas, baño privado, y todas las comodidades.</p>
-              <a class="btn btn-transp-arrow btn-primary" href="#info/2">
-                <span class="text">Siguiente</span>
-                <span class="icon arrow-right"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/img-sample4.jpg" alt="Image">
-            </div>
-            <div class="legend">
-                <h3>Tranquilidad</h3>
-                <h4 class="numberslide">03</h4>
-                <p>Una estadía para relajarte y desconectarte de todo!</p>
-              <a class="btn btn-transp-arrow btn-primary" href="#info/3">
-                <span class="text">Siguiente</span>
-                <span class="icon arrow-right"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/img-sample0.jpg" alt="Image">
-            </div>
-            <div class="legend">
-                <h3>Aventura</h3>
-                <h4 class="numberslide">04</h4>
-                <p><a class="link" href="https://www.instagram.com/llanosdelcastorushuaia/" target="_blank">@llanosdelcastorushuaia</a> nos brinda diferentes actividades para vivir experiencias únicas en contacto con la naturaleza!</p>
-              <a class="btn btn-transp-arrow btn-primary" href="#info/">
-                <span class="text">Inicio</span>
-                <span class="icon arrow-right"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Arrows scroll down/up -->
-      <footer class="section-footer scrolldown">
-        <a class="down">
-          <span class="icon"></span>
-          <span class="txt">All Works</span>
-        </a>
-      </footer>
-
-    </div>
-    <!-- End of slider section -->
-
-    <!-- Begin of description section -->
-    <div class="section section-description fp-auto-height-responsive " data-section="clientes">
-        <!-- Begin of section wrapper -->
-        <div class="section-wrapper fullwidth with-margin">
-  
-          <div id="testim" class="testim">
-            <!--         <div class="testim-cover"> -->
-                        <div class="wrap">
-            
-                            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                            <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
-                            <ul id="testim-dots" class="dots">
-                                <li class="dot active"></li><!--
-                                --><li class="dot"></li><!--
-                                --><li class="dot"></li><!--
-                                --><li class="dot"></li><!--
-                                --><li class="dot"></li>
-                            </ul>
-                            <div id="testim-content" class="cont">
-                                
-                                <div class="active">
-                                    <div class="img"><img src="img/items/img-people4.png" alt="Mateo Salvato"></div>
-                                    <h2 style="font-weight: bold;">Cliente</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                                </div>
-            
-                                <div>
-                                    <div class="img"><img src="img/items/img-people4.png" alt=""></div>
-                                    <h2 style="font-weight: bold;">Cliente</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                                </div>
-            
-                                <div>
-                                    <div class="img"><img src="img/items/img-people4.png" alt=""></div>
-                                    <h2 style="font-weight: bold;">Cliente</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                                </div>
-            
-                                <div>
-                                    <div class="img"><img src="img/items/img-people4.png" alt=""></div>
-                                    <h2 style="font-weight: bold;">Cliente</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                                </div>
-            
-                                <div>
-                                    <div class="img"><img src="img/items/img-people4.png" alt=""></div>
-                                    <h2 style="font-weight: bold;">Anónimo</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                                </div>
-            
-                            </div>
-            
+      <!--END OF page cover -->
+      <!-- BEGIN OF page main content -->
+      <main class="page-main page-fullpage main-anim" id="mainpage">
+         <!-- Begin of home section -->
+         <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
+            data-section="home">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper fullwidth with-margin v-center">
+               <!-- content -->
+               <div class="section-content anim">
+                  <div class="row">
+                     <div class="col-12 col-lg-6 text-left">
+                        <!-- title and description -->
+                        <div class="title-desc">
+                           <h1 class="display-4 display-title home-title decor anim-1">Llanos EcoLodge</h1>
+                           <h4 class="anim-2 ubi">Alojamiento | Ushuaia, Tierra del Fuego.</h4>
+                           <p class="anim-2">Todas las comodidades de un hotel, combinadas con los aspectos 
+                              más divertidos y prácticos de un camping by <a class="link" href="https://www.instagram.com/llanosdelcastorushuaia/" target="_blank">@llanosdelcastorushuaia</a>.
+                           </p>
                         </div>
-            <!--         </div> -->
-                      </div>
-                      <!-- Counter Client-->
-                      <div id="statistic" class="statistic-section one-page-section">
-                        <div class="container">
-                            <div class="row text-center">
-                                <div class="col-xs-12 col-md-4">
-                                    <div class="counter">
-                                        <i class="fa fa-address-book fa-2x stats-icon"></i>
-                                        <h2 class="timer count-title count-number">782</h2>
-                                        <div class="stats-line-black"></div>
-                                        <p class="stats-text">Clientes</p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-4">
-                                    <div class="counter">
-                                        <i class="fa fa-users fa-2x stats-icon"></i>
-                                        <h2 class="timer count-title count-number">23700
-                                        </h2>
-                                        <div class="stats-line-black"></div>
-                                        <p class="stats-text"><i class="icon fa fa-instagram"></i> Seguidores</p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-4">
-                                    <div class="counter">
-                                        <i class="fa fa-clock-o fa-2x stats-icon"></i>
-                                        <h2 class="timer count-title count-number">5</h2>
-                                        <div class="stats-line-black"></div>
-                                        <p class="stats-text">Años</p>
-                                    </div>
-                                </div>
-
-                            </div>
+                        <!-- Action button -->
+                        <div class="btns-action anim-3">
+                           <a class="btn btn-circicon btn-primary" href="#info">
+                           <span class="icon">
+                           <i class="ion ion-chevron-down"></i>
+                           </span>
+                           <span class="text">+ Información</span>
+                           </a>
                         </div>
-                      </div>
-                      <!-- End Counter Client-->
-
-
-
-          <!-- Arrows scroll down/up -->
-          <footer class="section-footer scrolldown">
-            <a class="down">
-              <span class="icon"></span>
-              <span class="txt">Works</span>
-            </a>
-          </footer>
-        </div>
-        <!-- End of section wrapper -->
-      </div>
-      <!-- End of description section -->
-
-
-
-
-     <!-- Begin of list projects section -->
-     <div class="section section-list-feature fp-auto-height-responsive " data-section="galeria">
-
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin">
-        <!-- content -->
-        <div class="section-content anim">
-          <!-- project list -->
-          <div class="project-list grid-2 grid-md-3 grid-lg-6 anim-list">
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample12.jpg" alt="An image">
-              </div>
-              <div class="media-footer">
-                <a class=" fotos btn btn-transp-arrow btn-primary" href="https://www.instagram.com/llanosecolodge/" target="_blank">
-                  <span class="text">@llanosecolodge</span>
-                </a>
-              </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="section-aside aside-bottom">
+                  <div class="text-right">
+                  </div>
+                  <!-- Action button -->
+                  <div class="btns-action anim-3 text-right">
+                     <a class="btn btn-outline-white btn-round" href="#contact">
+                     Contacto
+                     </a>
+                  </div>
+               </div>
+               <!-- Arrows scroll down/up -->
+               <footer class="section-footer scrolldown">
+                  <a class="down">
+                  <span class="icon"></span>
+                  <span class="txt">Scroll Down</span>
+                  </a>
+               </footer>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample11.jpg" alt="An image">
-              </div>
+            <!-- End of section wrapper -->
+         </div>
+         <!-- End of home section -->
+         <!-- Begin of slider section -->
+         <div class="section section-twoside project-slider fp-auto-height-responsive " data-section="info">
+            <div class="slide">
+               <div class="slide-wrapper">
+                  <div class="item-wrapper">
+                     <div class="illustr ">
+                        <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
+                     </div>
+                     <div class="legend">
+                        <h3>Libertad</h3>
+                        <h4 class="numberslide">01</h4>
+                        <p>El Lugar ideal para pasar tus próximas vacaciones y sentirte parte de la naturaleza!</p>
+                        <a class="btn btn-transp-arrow btn-primary" href="#info/1">
+                        <span class="text">Siguiente</span>
+                        <span class="icon arrow-right"></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample13.jpg" alt="An image">
-              </div>
+            <div class="slide">
+               <div class="slide-wrapper">
+                  <div class="item-wrapper">
+                     <div class="illustr">
+                        <img class="img img-block" src="img/items/img-sample2.jpg" alt="Image">
+                     </div>
+                     <div class="legend">
+                        <h3>Comodidad</h3>
+                        <h4 class="numberslide">02</h4>
+                        <p>Nuestras habitaciones cuentan con capacidad hasta 3 personas, baño privado, y todas las comodidades.</p>
+                        <a class="btn btn-transp-arrow btn-primary" href="#info/2">
+                        <span class="text">Siguiente</span>
+                        <span class="icon arrow-right"></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample9.jpg" alt="An image">
-              </div>
+            <div class="slide">
+               <div class="slide-wrapper">
+                  <div class="item-wrapper">
+                     <div class="illustr">
+                        <img class="img img-block" src="img/items/img-sample4.jpg" alt="Image">
+                     </div>
+                     <div class="legend">
+                        <h3>Tranquilidad</h3>
+                        <h4 class="numberslide">03</h4>
+                        <p>Una estadía para relajarte y desconectarte de todo!</p>
+                        <a class="btn btn-transp-arrow btn-primary" href="#info/3">
+                        <span class="text">Siguiente</span>
+                        <span class="icon arrow-right"></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample15.jpg" alt="An image">
-              </div>
+            <div class="slide">
+               <div class="slide-wrapper">
+                  <div class="item-wrapper">
+                     <div class="illustr">
+                        <img class="img img-block" src="img/items/img-sample0.jpg" alt="Image">
+                     </div>
+                     <div class="legend">
+                        <h3>Aventura</h3>
+                        <h4 class="numberslide">04</h4>
+                        <p><a class="link" href="https://www.instagram.com/llanosdelcastorushuaia/" target="_blank">@llanosdelcastorushuaia</a> nos brinda diferentes actividades para vivir experiencias únicas en contacto con la naturaleza!</p>
+                        <a class="btn btn-transp-arrow btn-primary" href="#info/">
+                        <span class="text">Inicio</span>
+                        <span class="icon arrow-right"></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample10.jpg" alt="An image">
-              </div>
+            <!-- Arrows scroll down/up -->
+            <footer class="section-footer scrolldown">
+               <a class="down">
+               <span class="icon"></span>
+               <span class="txt">All Works</span>
+               </a>
+            </footer>
+         </div>
+         <!-- End of slider section -->
+         <!-- Begin of description section -->
+         <div class="section section-description fp-auto-height-responsive " data-section="clientes">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper fullwidth with-margin">
+               <div id="testim" class="testim">
+                  <!--         <div class="testim-cover"> -->
+                  <div class="wrap">
+                     <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                     <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                     <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li>
+                        <!--
+                           -->
+                        <li class="dot"></li>
+                        <!--
+                           -->
+                        <li class="dot"></li>
+                        <!--
+                           -->
+                        <li class="dot"></li>
+                        <!--
+                           -->
+                        <li class="dot"></li>
+                     </ul>
+                     <div id="testim-content" class="cont">
+                        <div class="active">
+                           <div class="img"><img src="img/items/img-people4.png" alt="Mateo Salvato"></div>
+                           <h2 style="font-weight: bold;">Cliente</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                        <div>
+                           <div class="img"><img src="img/items/img-people4.png" alt=""></div>
+                           <h2 style="font-weight: bold;">Cliente</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                        <div>
+                           <div class="img"><img src="img/items/img-people4.png" alt=""></div>
+                           <h2 style="font-weight: bold;">Cliente</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                        <div>
+                           <div class="img"><img src="img/items/img-people4.png" alt=""></div>
+                           <h2 style="font-weight: bold;">Cliente</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                        <div>
+                           <div class="img"><img src="img/items/img-people4.png" alt=""></div>
+                           <h2 style="font-weight: bold;">Anónimo</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!--         </div> -->
+               </div>
+               <!-- Counter Client-->
+               <div id="statistic" class="statistic-section one-page-section">
+                  <div class="container">
+                     <div class="row text-center">
+                        <div class="col-xs-12 col-md-4">
+                           <div class="counter">
+                              <i class="fa fa-address-book fa-2x stats-icon"></i>
+                              <h2 class="timer count-title count-number">782</h2>
+                              <div class="stats-line-black"></div>
+                              <p class="stats-text">Clientes</p>
+                           </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                           <div class="counter">
+                              <i class="fa fa-users fa-2x stats-icon"></i>
+                              <h2 class="timer count-title count-number">23700
+                              </h2>
+                              <div class="stats-line-black"></div>
+                              <p class="stats-text"><i class="icon fa fa-instagram"></i> Seguidores</p>
+                           </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                           <div class="counter">
+                              <i class="fa fa-clock-o fa-2x stats-icon"></i>
+                              <h2 class="timer count-title count-number">5</h2>
+                              <div class="stats-line-black"></div>
+                              <p class="stats-text">Años</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End Counter Client-->
+               <!-- Arrows scroll down/up -->
+               <footer class="section-footer scrolldown">
+                  <a class="down">
+                  <span class="icon"></span>
+                  <span class="txt">Works</span>
+                  </a>
+               </footer>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample14.jpg" alt="An image">
-              </div>
+            <!-- End of section wrapper -->
+         </div>
+         <!-- End of description section -->
+         <!-- Begin of list projects section -->
+         <div class="section section-list-feature fp-auto-height-responsive " data-section="galeria">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper fullwidth with-margin">
+               <!-- content -->
+               <div class="section-content anim">
+                  <!-- project list -->
+                  <div class="project-list grid-2 grid-md-3 grid-lg-6 anim-list">
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample12.jpg" alt="An image">
+                        </div>
+                        <div class="media-footer">
+                           <a class=" fotos btn btn-transp-arrow btn-primary" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                           <span class="text">@llanosecolodge</span>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample11.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample13.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample9.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample15.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample10.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample14.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample16.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample17.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample18.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample19.jpg" alt="An image">
+                        </div>
+                     </div>
+                     <!-- an item -->
+                     <div class="item media media-project">
+                        <div class="media-img foto">
+                           <img class="" src="img/items/img-sample20.jpg" alt="An image">
+                        </div>
+                        <div class="media-footer">
+                           <a class=" fotos btn btn-transp-arrow btn-primary" href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                           <span class="text">+ 21 Fotos</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample16.jpg" alt="An image">
-              </div>
+            <!-- End of section wrapper -->
+            <!-- Arrows scroll down/up -->
+            <footer class="section-footer scrolldown">
+               <a class="down">
+               <span class="icon"></span>
+               <span class="txt">Services</span>
+               </a>
+            </footer>
+         </div>
+         <!-- End of list projects section -->
+         <!-- Begin of FAQ section -->
+         <div class=" section fp-auto-height-responsive" data-section="faq">
+            <div class="section-wrapper fullwidth with-margin  div accordion-section clearfix mt-3" aria-label="Question Accordions" ">
+               <div class="container">
+                  <h2 class="display-4 display-title">Preguntas Frecuentes</h2>
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                     <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                           <h3 class="panel-title">
+                              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                              ¿Cuales son los Precios? - Pagos
+                              </a>
+                           </h3>
+                        </div>
+                        <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                           <div class="panel-body px-3 mb-4">
+                              <p>Para poder obtener un precio final, tiene que consultar en algún medio de contacto (Mail - Whatsapp - Instagram).</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                           <h3 class="panel-title">
+                              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                              ¿Qué Actividades se pueden realizar? - Estadía
+                              </a>
+                           </h3>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                           <div class="panel-body px-3 mb-4">
+                              <p>Trineos con Perros - Motos de Nieve - Vehículos 4x4 - Trekkings - Esquí de Fondo - etc.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                           <h3 class="panel-title">
+                              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                              ¿Cuál es la Capacidad Máxima de los Domos? - Estadía
+                              </a>
+                           </h3>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                           <div class="panel-body px-3 mb-4">
+                              <p>Las habitaciones están preparadas para alojar hasta 3 personas (Tienen baño privado).</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                           <h3 class="panel-title">
+                              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                              ¿Cómo se llega al Camping? - Ubicación
+                              </a>
+                           </h3>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                           <div class="panel-body px-3 mb-4">
+                              <p>Para llegar, siga las instrucciones de Google Maps, yendo por la Ruta Nacional Nº3.</p>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18438.94929394593!2d-68.09002813158665!3d-54.71192879861306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c114ebe4595e9%3A0x5170f45d74f23797!2sLlanos%20Del%20Castor!5e0!3m2!1ses!2sar!4v1625807375901!5m2!1ses!2sar" width="1024" height="200" style=" border-radius: 25px" allowfullscreen="" loading="lazy"></iframe>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample17.jpg" alt="An image">
-              </div>
+            <!-- Arrows scroll down/up -->
+            <footer class="section-footer scrolldown">
+               <a class="down">
+               <span class="icon"></span>
+               <span class="txt">Contact</span>
+               </a>
+            </footer>
+         </div>
+         </div>
+         <!-- End of FAQ section -->
+         <!-- Begin of Contact section -->
+         <div class=" section fp-auto-height-responsive" data-section="contact">
+            <div class="container">
+               <!-- Begin of slide section wrapper -->
+               <div class="section-wrapper fullwidth with-margin">
+                  <!-- title and description -->
+                  <div class="title-desc">
+                     <div class="anim-2">
+                        <h2 class="display-4 display-title">Contacto</h2>
+                        <p>Si tenés dudas o preguntas sobre la estadía o el lugar, deseas reservar o consultar fechas disponibles y precios, no dudes en contactarnos. Estamos para ayudarte a tener las mejores vacaciones de tu vida. Nos vemos pronto!</p>
+                     </div>
+                     <div class="address-container anim-3">
+                        <div class="row">
+                           <div class="col-12 col-md-12 col-lg-12">
+                              <p class="mail"> <i class="fa fa-envelope"></i>⠀<a href="mailto:llanosecolodge@gmail.com">llanosecolodge@gmail.com</a></p>
+                              <p style="font-weight: bold;"> <i class="fa fa-phone"></i>⠀+542901404668</p>
+                              <div class="icons icons-margin">
+                                 <a class="icon-btn"  href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                                 <i class="icon fa fa-instagram"></i>
+                                 </a>
+                                 <a class="icon-btn" href="https://api.whatsapp.com/send?phone=+542901404668" target="_blank">
+                                 <i class="icon fa fa-whatsapp"></i>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="message-form">
+                     <h4>Enviar Mensaje</h4>
+                     <div class="form-container form-container-card">
+                        <!-- Message form container -->
+                        <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
+                           id="message_form">
+                           <div class="form-group name">
+                              <input id="mes-name" name="name" type="text" placeholder="Nombre" class="form-control form-control-outline thick form-success-clean"
+                                 required>
+                           </div>
+                           <div class="form-group email">
+                              <input id="mes-email" type="email" placeholder="Email" name="email" class="form-control form-control-outline thick form-success-clean"
+                                 required>
+                           </div>
+                           <div class="form-group no-border">
+                              <textarea id="mes-text" placeholder="Mensaje ..." name="message" class="form-control form-control-outline thick form-success-clean"
+                                 required></textarea>
+                              <div>
+                                 <p class="message-ok invisible form-text-feedback form-success-visible">Su mensaje se ha enviado. Gracias!</p>
+                              </div>
+                           </div>
+                           <div class="btns text-right">
+                              <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
+                                 name="submit_message">
+                              <span class="txt">Enviar</span>
+                              <span class="arrow-icon"></span>
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample18.jpg" alt="An image">
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample19.jpg" alt="An image">
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img foto">
-                <img class="" src="img/items/img-sample20.jpg" alt="An image">
-              </div>
-              <div class="media-footer">
-                <a class=" fotos btn btn-transp-arrow btn-primary" href="https://www.instagram.com/llanosecolodge/" target="_blank">
-                  <span class="text">+ 21 Fotos</span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
-      </div>
-  <!-- End of section wrapper -->
-          <!-- Arrows scroll down/up -->
-          <footer class="section-footer scrolldown">
-            <a class="down">
-              <span class="icon"></span>
-              <span class="txt">Services</span>
-            </a>
-          </footer>
-    </div>
-    <!-- End of list projects section -->
-
-    <!-- Begin of FAQ section -->
-    <div class=" section fp-auto-height-responsive" data-section="faq">
-
-      <div class="section-wrapper fullwidth with-margin  div accordion-section clearfix mt-3" aria-label="Question Accordions" ">
-
-        <div class="container">
-        
-          <h2 class="display-4 display-title">Preguntas Frecuentes</h2>
-          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-            <h3 class="panel-title">
-              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                ¿Cuales son los Precios? - Pagos
-              </a>
-            </h3>
-            </div>
-            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-            <div class="panel-body px-3 mb-4">
-              <p>Para poder obtener un precio final, tiene que consultar en algún medio de contacto (Mail - Whatsapp - Instagram).</p>
-            </div>
-            </div>
-          </div>
-          
-          <div class="panel panel-default">
-            <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
-            <h3 class="panel-title">
-              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                ¿Qué Actividades se pueden realizar? - Estadía
-              </a>
-            </h3>
-            </div>
-            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-            <div class="panel-body px-3 mb-4">
-              <p>Trineos con Perros - Motos de Nieve - Vehículos 4x4 - Trekkings - Esquí de Fondo - etc.</p>
-            </div>
-            </div>
-          </div>
-          
-          <div class="panel panel-default">
-            <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
-            <h3 class="panel-title">
-              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                ¿Cuál es la Capacidad Máxima de los Domos? - Estadía
-              </a>
-            </h3>
-            </div>
-            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-            <div class="panel-body px-3 mb-4">
-              <p>Las habitaciones están preparadas para alojar hasta 3 personas (Tienen baño privado).</p>
-            </div>
-            </div>
-          </div>
-          
-          <div class="panel panel-default">
-            <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-            <h3 class="panel-title">
-              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                ¿Cómo se llega al Camping? - Ubicación
-              </a>
-            </h3>
-            </div>
-            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-            <div class="panel-body px-3 mb-4">
-              <p>Para llegar, siga las instrucciones de Google Maps, yendo por la Ruta Nacional Nº3.</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18438.94929394593!2d-68.09002813158665!3d-54.71192879861306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c114ebe4595e9%3A0x5170f45d74f23797!2sLlanos%20Del%20Castor!5e0!3m2!1ses!2sar!4v1625807375901!5m2!1ses!2sar" width="1024" height="200" style=" border-radius: 25px" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            </div>
-          </div>
-
-        </div>
-    </div>
-  </div>
-
-      <!-- Arrows scroll down/up -->
-      <footer class="section-footer scrolldown">
-        <a class="down">
-          <span class="icon"></span>
-          <span class="txt">Contact</span>
-        </a>
+         </div>
+         <!-- End of slide section wrapper -->
+         <!-- End of Contact Section -->
+      </main>
+      <!-- END OF page main content -->
+      <!-- BEGIN OF page footer -->
+      <footer id="site-footer" class="page-footer">
+         <!-- Right content -->
+         <div class="footer-right">
+            <p class="note"> &#169 2021 Made by
+               <a href="https://ignacioprados.vercel.app/" target="_blank">
+               <span class="marked">IgnacioPrados</span>
+               </a>
+            </p>
+            <ul class="social">
+               <li>
+                  <a href="mailto:llanosecolodge@gmail.com">
+                  <i class="icon fa fa-envelope"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://api.whatsapp.com/send?phone=+542901404668" target="_blank">
+                  <i class="icon fa fa-whatsapp"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/llanosecolodge/" target="_blank">
+                  <i class="icon fa fa-instagram"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
       </footer>
-    </div>
-
-
-    </div>
-    <!-- End of FAQ section -->
-
-
-    <!-- Begin of Contact section -->
-    <div class=" section fp-auto-height-responsive" data-section="contact">
-      <div class="container">
-      <!-- Begin of slide section wrapper -->
-      <div class="section-wrapper fullwidth with-margin">
-
-
-
-        <!-- title and description -->
-        <div class="title-desc">
-          <div class="anim-2">
-            <h2 class="display-4 display-title">Contacto</h2>
-            <p>Si tenés dudas o preguntas sobre la estadía o el lugar, deseas reservar o consultar fechas disponibles y precios, no dudes en contactarnos. Estamos para ayudarte a tener las mejores vacaciones de tu vida. Nos vemos pronto!</p>
-          </div>
-          <div class="address-container anim-3">
-
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-12">
-                <p class="mail"> <i class="fa fa-envelope"></i>⠀<a href="mailto:llanosecolodge@gmail.com">llanosecolodge@gmail.com</a></p>
-                <p style="font-weight: bold;"> <i class="fa fa-phone"></i>⠀+542901404668</p>
-                
-
-                <div class="icons icons-margin">
-                  <a class="icon-btn"  href="https://www.instagram.com/llanosecolodge/" target="_blank">
-                    <i class="icon fa fa-instagram"></i>
-                  </a>
-                  <a class="icon-btn" href="https://api.whatsapp.com/send?phone=+542901404668" target="_blank">
-                    <i class="icon fa fa-whatsapp"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="message-form">
-        <h4>Enviar Mensaje</h4>
-        <div class="form-container form-container-card">
-          <!-- Message form container -->
-          <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
-          id="message_form">
-            <div class="form-group name">
-              <input id="mes-name" name="name" type="text" placeholder="Nombre" class="form-control form-control-outline thick form-success-clean"
-              required>
-            </div>
-            <div class="form-group email">
-              <input id="mes-email" type="email" placeholder="Email" name="email" class="form-control form-control-outline thick form-success-clean"
-              required>
-            </div>
-            <div class="form-group no-border">
-              <textarea id="mes-text" placeholder="Mensaje ..." name="message" class="form-control form-control-outline thick form-success-clean"
-              required></textarea>
-
-              <div>
-                <p class="message-ok invisible form-text-feedback form-success-visible">Su mensaje se ha enviado. Gracias!</p>
-              </div>
-            </div>
-
-            <div class="btns text-right">
-              <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
-              name="submit_message">
-                <span class="txt">Enviar</span>
-                <span class="arrow-icon"></span>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-  </div>
-</div>
-</div>
-  <!-- End of slide section wrapper -->
-  <!-- End of Contact Section -->
-
-  </main>
-  <!-- END OF page main content -->
-
-  <!-- BEGIN OF page footer -->
-  <footer id="site-footer" class="page-footer">
-
-    <!-- Right content -->
-    <div class="footer-right">
-      <p class="note"> &#169 2021 Made by
-        <a href="https://ignacioprados.vercel.app/" target="_blank">
-          <span class="marked">IgnacioPrados</span>
-        </a>
-      </p>
-      <ul class="social">
-        <li>
-          <a href="mailto:llanosecolodge@gmail.com">
-            <i class="icon fa fa-envelope"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://api.whatsapp.com/send?phone=+542901404668" target="_blank">
-            <i class="icon fa fa-whatsapp"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/llanosecolodge/" target="_blank">
-            <i class="icon fa fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <!-- END OF site footer -->
-
-  <!-- scripts -->
-  <!-- All Javascript plugins goes here -->
-  <script src="./js/vendor/jquery-1.12.4.min.js"></script>
-  <script src="./js/slick/slick.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js" integrity="sha512-kIRDPWIBoKpF79HJv3xBPQgZKjhxzqMGG2N68svvId45w9vp/hTXoR7cDERYhVEhLJTuSGb/c3+ZHgeQfLm0Hg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha512-Ah5hWYPzDsVHf9i2EejFBFrG2ZAPmpu4ZJtW4MfSgpZacn+M9QHDt+Hd/wL1tEkk1UgbzqepJr6KnhZjFKB+0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- All vendor scripts -->
-  <script src="./js/vendor/parallax.min.js"></script>
-  <script src="./js/vendor/scrolloverflow.min.js"></script>
-  <script src="./js/vendor/all.js"></script>
-  <script src="./js/particlejs/particles.min.js"></script>
-
-  <!-- Countdown script -->
-  <script src="./js/jquery.downCount.js"></script>
-
-  <!-- Form script -->
-  <script src="./js/form_script.js"></script>
-
-  <!-- Javascript main files -->
-  <script src="./js/main.js"></script>
-
-
-</body>
-
+      <!-- END OF site footer -->
+      <!-- scripts -->
+      <!-- All Javascript plugins goes here -->
+      <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+      <script src="./js/slick/slick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js" integrity="sha512-kIRDPWIBoKpF79HJv3xBPQgZKjhxzqMGG2N68svvId45w9vp/hTXoR7cDERYhVEhLJTuSGb/c3+ZHgeQfLm0Hg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha512-Ah5hWYPzDsVHf9i2EejFBFrG2ZAPmpu4ZJtW4MfSgpZacn+M9QHDt+Hd/wL1tEkk1UgbzqepJr6KnhZjFKB+0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- All vendor scripts -->
+      <script src="./js/vendor/parallax.min.js"></script>
+      <script src="./js/vendor/scrolloverflow.min.js"></script>
+      <script src="./js/vendor/all.js"></script>
+      <script src="./js/particlejs/particles.min.js"></script>
+      <!-- Countdown script -->
+      <script src="./js/jquery.downCount.js"></script>
+      <!-- Form script -->
+      <script src="./js/form_script.js"></script>
+      <!-- Javascript main files -->
+      <script src="./js/main.js"></script>
+   </body>
 </html>
