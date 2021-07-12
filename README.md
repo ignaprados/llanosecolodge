@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/IgnacioPrados/llanosecolodge/gh-pages/img/preview.JPG)
+![banner](https://raw.githubusercontent.com/IgnacioPrados/llanosecolodge/main/img/preview.JPG)
 # LLANOS ECOLODGE
 
 Alojamiento | Ushuaia, Tierra del Fuego. - Website @llanosecolodge
