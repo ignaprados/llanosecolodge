@@ -5968,15 +5968,26 @@ margin: 12px auto 0;
 /* Start: Google Maps Responsive */
 .map-responsive {
   overflow:hidden;
-  padding-bottom:230px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+  padding-bottom:40%; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
   position:relative;
   height:0;
 }
+
+@media (max-width: 768px) {
+  .map-responsive {
+    padding-bottom:60%
+  }
+  }
+
 .map-responsive iframe{
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
+}
+
+.gmaps:hover{
+  color: var(--first-color);
 }
 /* End: Google Maps Responsive */
