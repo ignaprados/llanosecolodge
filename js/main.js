@@ -564,9 +564,9 @@ window.onload = function () {
 
 
 // Client Counter
-$(document).ready(function($) {
+/*$(document).ready(function($) {
 	$('.count-number').counterUp({
 		delay: 10,
 		time: 5000
 	});
-});
+});*/
