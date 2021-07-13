@@ -3489,8 +3489,8 @@ textarea {
     @media (min-width: 768px) {
       .section p, .section ul {
         line-height: 1.75; } }
-  .section p {
-    color: var(--white-color); }
+  /*.section p {
+    color: var(--white-color); }*/
   .section .padding-top {
     padding-top: 32px; }
     @media (min-width: 768px) {
@@ -5996,3 +5996,55 @@ margin: 12px auto 0;
   color: var(--first-color);
 }
 /* End: Google Maps Responsive */
+
+/* Tarjeta Social Contact*/
+.tarjcont{
+  margin-top: 50px;
+}
+
+.tarjeta{
+  background-color: #ffffff07;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1.8px solid var(--white-color);
+
+}
+
+.tarjeta:hover{
+  background-color: #d4bdab;
+  color: var(--black-color) !important;
+  border: 1.8px solid var(--first-color);
+}
+
+.tarjeta i{
+  font-size: 30px;
+}
+
+.tarjeta p:hover{
+  color: var(--black-color);
+}
+
+.tar {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: none;
+}
+
+@media (max-width: 362px) {
+  .tar {
+    font-size: 14px;
+  }
+  .tarjeta i{
+    font-size: 20px;
+  }
+  }
+
+@media (max-width: 320px) {
+  .mail {
+    font-size: 12px;
+  }
+  }
