@@ -5978,6 +5978,11 @@ margin: 12px auto 0;
     padding-bottom:60%
   }
   }
+@media (max-width: 500px) {
+  .map-responsive {
+    padding-bottom:100%
+  }
+  }
 
 .map-responsive iframe{
   left:0;
