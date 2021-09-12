@@ -1,5 +1,5 @@
 ![banner](https://raw.githubusercontent.com/IgnacioPrados/llanosecolodge/main/img/preview.JPG)
-# LLANOS ECOLODGE
+# Llanos EcoLodge
 
 Accommodation | Ushuaia, Tierra del Fuego. - Website for [@llanosecolodge](https://www.instagram.com/llanosecolodge/)
 
@@ -31,4 +31,4 @@ I also did a redesign of their logo, being much more minimalist. The page was de
 - Particles.js
 - Parallax.js
 
-> 
+> © 2021 Made by IgnacioPrados
