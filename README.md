@@ -30,3 +30,5 @@ I also did a redesign of their logo, being much more minimalist. The page was de
 - iScroll.js
 - Particles.js
 - Parallax.js
+
+> 
