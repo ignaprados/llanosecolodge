@@ -13,9 +13,11 @@ https://llanosecolodge.vercel.app/
 This Responsive landing page was developed for @llanosecolodge, with the aim of being a presentation web page of a Glamping accommodation service in Tierra del Fuego, Argentina. In this way, they attract more customers on the internet, not only through social networks. With this website, you have a clear vision of the accommodation proposal, knowing all its characteristics and amenities.
 
 ## Details
-After learning how to manipulate the web DOM well, thanks to TheAppBrewery for the Udemy course, I set out to create this game. The game consists of the user having to press the buttons, in the correct order shown on the screen.
+To increase the trust of your followers and potential clients, it is highly recommended to have a website that gathers general information about the service they offer, so that the client fully understands what it is, and how to hire it.
 <br><br>
-I created the game in August 2021. It has infinite levels and patterns, totally random, for the user to have fun. I did this by creating Random values with JavaScript. Try to beat my record!
+The project took me a little less than a month of work, but it was a very satisfying experience, since it allowed me to learn a lot about how to use certain libraries that I had never seen before, and it helped me to understand how to build a site with a great variety of technologies.
+<br><br>
+I also did a redesign of their logo, being much more minimalist. The page was designed and developed by me, between June and August 2021.
 
 ## Key Technologies used
 - HTML5
