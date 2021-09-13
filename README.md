@@ -34,4 +34,4 @@ I also did a redesign of their logo, being much more minimalist. The page was de
 - Particles.js
 - Parallax.js
 
-> © 2021 Made by IgnacioPrados.
+> © 2021 Made by IgnacioPrados
